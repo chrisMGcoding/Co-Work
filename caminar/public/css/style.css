@@ -1,0 +1,131 @@
+body {
+    height: 500px;
+    width: 100%;
+    background-image: url("/caminar/images/bg.jpg");
+    background-repeat: repeat;
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first_image {
+    margin-left: 15%;
+}
+.first_title{
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    background-color: aliceblue;
+    width: 72%;
+    margin-left: 15%;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.first_text{
+    background-color:lightgray;
+    height: 350px;
+    color: black;
+    width: 72%;
+    padding-top: 1px;
+    margin-left: 15%;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+/* VESTIBULUM */
+
+.second{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    width: 72%;
+    margin-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.second_title{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.second>div>img{
+    height: 200px;
+    width: 400px;
+}
+/* VIVERRA */
+.third{
+    margin-left: 15%;
+}
+.third>div>img{
+    height: 400px;
+    width: 600px;
+}
+.third>div>h2{
+    display: flex;
+}
+.third_imagetexte1{
+    display: flex;
+    background-color:cornsilk;
+    text-align: center;
+    align-items: center;
+    width: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.third_imagetexte1>p{
+    width: 37%;
+}
+/* CURABITUR */
+.third_imagetexte2{
+    display: flex;
+    background-color: rgb(54, 53, 53);
+    color: whitesmoke;
+    text-align:center;
+    align-items: center;
+    width: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.third_imagetexte2>p{
+    width: 37%;
+}
+.third_imagetexte2>div>img{
+    height: 400px;
+    width: 600px;
+    margin-left: 100px;
+}
+/* Morbi */
+.third_imagetexte3{
+
+    display: flex;
+    background-color:cornsilk;
+    text-align: center;
+    align-items: center;
+    width: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.third_imagetexte3>img{
+    height: 400px;
+    width: 600px;
+}
+.third_imagetexte3>p{
+    width: 37%;
+}
+footer{
+    padding-top: 10%;
+}
+.footer_icones{
+    margin-left: 50%;
+}
+#ak47{
+    text-align: center;
+}
